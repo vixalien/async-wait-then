@@ -2,7 +2,7 @@
   "name": "async-wait-then",
   "version": "1.0.0",
   "description": "wait, then do something asynchronously",
-  "main": "index.cjs.js",
+  "main": "index.umd.js",
   "browser": "index.browser.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -10,6 +10,7 @@ export default [
 			{
 				file: 'index.browser.umd.js',
 				format: 'umd',
+				name: 'wait',
 				plugins: [terser()]
 			},
 			{
@@ -33,7 +34,7 @@ export default [
 				plugins: [terser()]
 			},
 		],
-		plugins: [commonjs(), resolve()]
+		plugins: [resolve(), commonjs()]
 	},
 	{
 		input: './index.js',
