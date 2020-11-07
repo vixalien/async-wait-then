@@ -3,18 +3,18 @@ async-wait-then
 
 a package to: **wait, then do something asynchronously**.
 
-- 📦 NPM: [wait](https://https://www.npmjs.com/package/wait)
-- 🌎 Browser: [unpkg](https://unpkg.com/wait)
+- 📦 NPM: [wait][]
+- 🌎 Browser: [jsDelivr](https://cdn.jsdelivr.net/npm/async-wait-then)
 - 📂 Github: [vixalien/wait](https://www.github.com/vixalien/wait)
 - ✍ Author: [@vixalien](https://www.github.com/vixalien)
 
 wait is yet another step in making `setTimeout` more efficient.
 
-It also allow easy use of the [Promises][] while removing all the `async` and `await` and `Promise`s in your app.
+It also allow easy use of the [promises][] while removing all the `async` and `await` and `Promise`s in your app.
 
 ## installation
 
-To use `wait`, you must first install it, it available as an [npm][] module.
+To use `wait`, you must first install it, it available on [npm][].
 
 ### npm
 
@@ -85,13 +85,13 @@ You may use this, when triggering notifications, or just to avoid using the ol' 
 
 ## thanks
 
-To: @zeit (Vercel) for the [`ms`][], which is used to transform dirty strings into micro-seconds.
+To: @zeit (Vercel) for the [ms][], which is used to transform dirty strings into micro-seconds.
 
 ## donate
 
-[donate][]
+[donate][] on PayPal.
 
 [donate]: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=DTV2TLWFUNHY8&source=url
 [ms]: https://github.com/zeit/ms
-[npm]: https://npmjs.org
+[npm]: https://https://www.npmjs.com/package/wait
 [promises]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#Creating_a_Promise_around_an_old_callback_API
