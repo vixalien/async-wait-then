@@ -3,7 +3,7 @@ async-wait-then
 
 a package to: **wait, then do something asynchronously**.
 
-- 📦 NPM: [wait][]
+- 📦 NPM: [npm][]
 - 🌎 Browser: [jsDelivr](https://cdn.jsdelivr.net/npm/async-wait-then)
 - 📂 Github: [vixalien/wait](https://www.github.com/vixalien/wait)
 - ✍ Author: [@vixalien](https://www.github.com/vixalien)
