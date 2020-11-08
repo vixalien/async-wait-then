@@ -1,6 +1,6 @@
 {
   "name": "async-wait-then",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "wait, then do something asynchronously",
   "main": "index.umd.js",
   "browser": "index.browser.umd.js",

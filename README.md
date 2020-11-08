@@ -93,5 +93,5 @@ To: @zeit (Vercel) for the [ms][], which is used to transform dirty strings into
 
 [donate]: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=DTV2TLWFUNHY8&source=url
 [ms]: https://github.com/zeit/ms
-[npm]: https://https://www.npmjs.com/package/wait
+[npm]: https://https://www.npmjs.com/package/async-wait-then
 [promises]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#Creating_a_Promise_around_an_old_callback_API
