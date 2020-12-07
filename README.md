@@ -4,8 +4,8 @@ async-wait-then
 a package to: **wait, then do something asynchronously**.
 
 - 📦 NPM: [npm][]
-- 🌎 Browser: [jsDelivr](https://cdn.jsdelivr.net/npm/async-wait-then)
-- 📂 Github: [vixalien/wait](https://www.github.com/vixalien/wait)
+- 🌎 Browser: [unpkg][]
+- 📂 Github: [vixalien/async-wait-then](https://www.github.com/vixalien/async-wait-then)
 - ✍ Author: [@vixalien](https://www.github.com/vixalien)
 
 wait is yet another step in making `setTimeout` more efficient.
@@ -35,7 +35,7 @@ let wait = require('async-wait-then');
 ### browser
 
 ```xml
-<script src="https://unpkg.com/wait" type="script/javascript" />
+<script src="https://unpkg.com/async-wait-then" type="script/javascript" />
 ```
 
 ## example
@@ -67,12 +67,14 @@ A promise, which you can attach `then()` to.
 
 ## builds
 
-Common builds are provided directly with the module, so if you ever wanted to require the umd build, you would do something like: `require("async-wait/index.umd.js")`, you can replace umd for:
+Common builds are provided directly with the module, so if you ever wanted to require the umd build, you would do something like: `require("async-wait-then/dist/index.umd.js")`, you can replace umd for:
 
 - esm
 - cjs (default)
 
-other builds are provided (for convenience) in `/dist` folder.
+all builds are provided (for convenience) in `/dist` folder.
+
+also, minified builds are available, just use `.min.js` as the extension
 
 ## use cases
 
@@ -91,7 +93,8 @@ To: @zeit (Vercel) for the [ms][], which is used to transform dirty strings into
 
 [donate][] on PayPal.
 
+[unpkg]: https://unpkg.com/async-wait-then
 [donate]: https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=DTV2TLWFUNHY8&source=url
 [ms]: https://github.com/zeit/ms
-[npm]: https://https://www.npmjs.com/package/async-wait-then
+[npm]: https://www.npmjs.com/package/async-wait-then
 [promises]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#Creating_a_Promise_around_an_old_callback_API
